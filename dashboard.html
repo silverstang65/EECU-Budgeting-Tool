@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,14 @@
     <title>EECU Dashboard Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <figure><img src="../Image/logo.png"></figure>
-        <nav> 
+        <nav>
             <a href="dashboard.html">Dashboard</a>
             <a href="Budgeting.html">Budgeting</a>
             <a href="index.html"> Account</a>
@@ -26,21 +29,20 @@
     <h1 id="header-main">Dashboard</h1>
     <main>
         <div class="cards">
-        <section id="Cards-1">
-            <h1>$1,000.00</h1>
-        </section>
-        <section id="Cards-2">
-            <h2>Summer Gap Savings</h2>
-            <meter value="0.8" min="0" max="1">80%</meter>
-        </section>
-        <section id="Cards-3">
-            <h2>In-hand Salary</h2>
-        </section>
-        <section id="Cards-4">
-            <h2>Recent Transactions</h2>
-        </section>
-    </div>
-
+            <section class="card">
+                <h1>$1,000.00</h1>
+            </section>
+            <section class="card">
+                <h2>Summer Gap Savings</h2>
+                <!-- Add the saving line bar using js-->
+            </section>
+            <section class="card">
+                <h2>In-hand Salary</h2>
+            </section>
+            <section class="card">
+                <h2>Recent Transactions</h2>
+            </section>
+        </div>
     </main>
     <footer>
         <figure>
@@ -60,6 +62,7 @@
             </ul>
         </section>
     </footer>
-        
+
 </body>
+
 </html>
