@@ -10,18 +10,19 @@
     <main>
         <h1>Ready to Wise-Up?</h1>
     <h2>Tell us more about yourself to calculate your future.</h2>
-
+<form>
 <section id="firstInput">
-    <input id="firstName" placeholder="First Name">
-    <select name="career-drop">
+    <input id="firstName" placeholder="First Name" required>
+    <select name="career-drop" required>
         <option>Select Your Future Career</option>
     </select>
-    <input placeholder="Target Graduation Year" type="date">
+    <input placeholder="Target Graduation Year" type="date" required>
 </section>
     
-    <button id="CalculateButton">Calculate My Future</button>
+    <button id="CalculateButton"><a href="dashboard.html"> Calculate My Future</a></button>
+</form>
 </main>
     
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>
