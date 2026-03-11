@@ -7,6 +7,7 @@
 body{
     margin: 0;  
     padding: 0;
+    font-family: "Roboto"; 
   }
   *{
     box-sizing: border-box;
@@ -96,7 +97,6 @@ body{
     gap:10px;
     background-color:#0054A4;
     margin-top: 13%;
-    
   }
   
   figure {
@@ -114,5 +114,4 @@ body{
     color:#0054A4;
     align-items:center;
     padding-left: 100px;
-  
   }
